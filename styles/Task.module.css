@@ -1,0 +1,38 @@
+.completeCheckbox {
+  margin-right: 40px;
+  cursor: pointer;
+  accent-color: #6B85F4;
+}
+
+.task {
+  height: 50px;
+  width: 95%;
+  margin: 2px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 10px 10px 10px lightgray;
+  border-radius: 3px;
+}
+
+.taskSection {
+  display: flex;
+  align-items: center;
+}
+
+.urgentBadge {
+  text-align: center;
+  width: 70px;
+  background-color: rgb(255, 0, 102);
+  border-radius: 40px;
+  margin: 40px;
+  padding: 8px;
+  font-size: 10px;
+  font-weight: 600;
+  color: white;
+}
+
+.delete {
+  cursor: pointer;
+}
